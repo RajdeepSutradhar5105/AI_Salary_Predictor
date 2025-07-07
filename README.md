@@ -101,7 +101,7 @@ Follow these steps to set up and run the application on your local machine:
 ```mermaid
 flowchart TD
     A[Start: User Opens App] --> B[Page Configuration & Styling]
-    B --> C[Load Dataset (Salary_Data.csv)]
+    B --> C[Load Dataset Salary_Data.csv]
     C --> D{Validate Required Columns?}
     D -- No --> E[Display Error & Stop]
     D -- Yes --> F[Display Key Metrics]
@@ -117,11 +117,11 @@ flowchart TD
     H --> I[Calculate & Display Performance Score]
     I --> J[User Clicks 'Predict Salary']
 
-    J --> K[Show Spinner (AI Analyzing)]
+    J --> K[Show Spinner AI Analyzing]
     K --> L[Transform User Inputs]
     L --> M[Predict Salary with Model]
     M --> N[Display Prediction Result]
     N --> O[Display Input Summary]
     O --> P[Display Dataset Preview]
-    P --> Q[Display Model Performance (R² Score)]
+    P --> Q[Display Model Performance R² Score]
     Q --> R[End]
